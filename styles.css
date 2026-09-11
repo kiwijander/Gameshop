@@ -1,0 +1,56 @@
+body {
+  margin: 0;
+
+  background-color: #3433e8;
+}
+
+.main {
+  /* remove min hight once we start worrking on the content */
+  min-height: calc(100vh - 170px);
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 13px;
+  padding: 18px 52px;
+}
+
+ul {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+}
+
+.menu:not(:first-child) {
+  margin-left: 51px;
+}
+
+.icons:not(:first-child) {
+  margin-left: 23px;
+}
+
+.operations {
+  margin-right: 66px;
+  margin-left: 66px;
+}
+
+a,
+li {
+  color: #bccadc;
+}
+
+.inter {
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+}
+
+.footer_right{
+    /* test align works only with text elements (img and a elements are includes --> so here we can align our text and image both to the right of the screen) */
+        text-align: right;
+
+}
