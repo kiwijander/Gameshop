@@ -1,20 +1,23 @@
 body {
-  margin: 0;
-
-  background-color: #3433e8;
+  margin: 0 auto;
+  max-width: 1248px;
+  width: 100%;
+  padding: 18px 52px;
+  background-color: #020f18;
+  font-family: "Inter", sans-serif;
+  color: #f6f7fc;
 }
 
-.main {
-  /* remove min hight once we start worrking on the content */
+/* .main {
+  remove min hight once we start worrking on the content 
   min-height: calc(100vh - 170px);
-}
+} */
 
 nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
   font-size: 13px;
-  padding: 18px 52px;
 }
 
 ul {
@@ -24,6 +27,14 @@ ul {
   margin-top: 0;
   margin-bottom: 0;
   padding-left: 0;
+}
+
+.footer {
+  padding-top: 28px;
+  margin-top: 23px;
+  border-color: #173044;
+  border-width: 1px 0px 0px 0px;
+  border-style: solid;
 }
 
 .menu:not(:first-child) {
@@ -44,13 +55,218 @@ li {
   color: #bccadc;
 }
 
-.inter {
-  font-family: "Inter", sans-serif;
-  font-style: normal;
+.footer_right {
+  /* test align works only with text elements (img and a elements are includes --> so here we can align our text and image both to the right of the screen) */
+  text-align: right;
 }
 
-.footer_right{
-    /* test align works only with text elements (img and a elements are includes --> so here we can align our text and image both to the right of the screen) */
-        text-align: right;
+.hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 23px;
+}
 
+.discover {
+  max-width: 403px;
+  /* padding-top: 45px;
+    padding-bottom: 43px; */
+}
+
+.pretitle {
+  color: #3433e8;
+  font-weight: bold;
+  font-size: 16px;
+  margin: 0;
+}
+
+.title {
+  font-weight: bold;
+  font-size: 64px;
+  margin: 8px 0px 16px;
+  line-height: 64px;
+}
+
+.game {
+  color: #3433e8;
+}
+
+.description {
+  font-size: 18px;
+  margin: 0px 0px 12px;
+}
+
+.button {
+  background-color: #3433e8;
+  padding: 16px 32px 16px 42px;
+  border-radius: 24px;
+  border: 0;
+  font-size: 14px;
+  font-weight: bold;
+  color: #f6f7fc;
+  display: flex;
+  align-items: center;
+  font-family: "Inter", sans-serif;
+}
+
+.arrow {
+  font-size: 16px;
+  margin-left: 8px;
+  font-weight: bold;
+}
+
+.mainimage {
+  max-width: 845px;
+  width: 100%;
+}
+
+.sectionheader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 20px 0px;
+}
+.sectionheader h3 {
+  margin: 0;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.viewallink {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  font-size: 12px;
+}
+
+.viewallink span {
+  display: block;
+}
+
+.cards {
+  display: flex;
+  justify-content: space-between;
+}
+
+.priceline {
+  display: flex;
+  justify-content: space-between;
+  margin: 34px 0 12px 0;
+}
+
+.rate {
+  display: flex;
+  font-size: 16px;
+  align-items: center;
+  color: #ffb350;
+}
+
+.rate span {
+  display: block;
+  font-size: 16px;
+}
+
+.priceline p,
+span {
+  margin: 0;
+}
+
+.price {
+  font-weight: 300;
+}
+
+.cardstitleprice {
+  margin: 0px 12px;
+}
+
+.card {
+  background-color: #041522;
+  border-radius: 8px;
+  border-color: #26425a;
+  border-style: solid;
+  border-width: 1px;
+  overflow: hidden;
+}
+
+.deals {
+  display: flex;
+  margin: 42px 0px;
+  background-color: #211657;
+  border-radius: 8px;
+  border-style: solid;
+  border-width: 1px;
+  overflow: hidden;
+  border-color: #54428c;
+}
+
+.deals_right {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding-left: 36px;
+  padding-right: 120px;
+  padding-bottom: 24px;
+}
+
+.tracker {
+  display: flex;
+  align-items: flex-end;
+}
+
+.tracker .dot {
+  display: block;
+  width: 12px;
+  height: 12px;
+  border: 2px solid #3433e8;
+  border-radius: 50%;
+  background-color: #3433e8;
+}
+.tracker .dot:not(:first-child) {
+  margin-left: 6px;
+}
+.tracker .dot.active {
+  background-color: transparent;
+}
+
+.deal h2 {
+  margin-top: 23px;
+  margin-bottom: 2px;
+}
+
+.shopdeals {
+  max-width: 146px;
+  width: 100%;
+  padding: 12px 26px 8px 18px;
+}
+
+.latest {
+  max-width: 360px;
+  width: 100%;
+}
+
+.latest img {
+  width: 100%;
+}
+
+.deals img {
+  height: 100%;
+}
+
+.news {
+  margin-left: 14px;
+  margin-top: 12px;
+  margin-bottom: 12px;
+}
+.news p {
+  font-size: 11px;
+  font-weight: 100;
+}
+
+.news h3 {
+  font-size: 14px;
+}
+
+.readmore {
+  color: #3433e8;
+  margin-top: 38px;
 }
