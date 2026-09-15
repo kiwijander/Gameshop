@@ -49,7 +49,48 @@
         </ul>
       </div>
     </nav>
-    <div class="main"></div>
+    <div class="contact-container">
+      <h1>Contact Us</h1>
+      <p>Have questions or feedback? Reach out to us!</p>
+      <form action="submit_contact.php" method="post" class="contact-form">
+        <div class="name-box">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required class="input" placeholder="Enter your name">
+        </div>
+
+        <div class="email-box">
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required class="input" placeholder="Enter your Email">
+        </div>
+
+        <div class="password-box">
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="passeord" required class="input" placeholder="Enter your Password" minlength="12">
+        </div>
+
+        <div class="select-box">
+          <label for="issue">Why do you need to contact us?:</label>
+          <select name="issue" class="select" id="select">
+            <option value="none">None</option>
+            <option value="malfunction">Malfuction</option>
+            <option value="hacked">Hacked</option>
+            <option value="question">Question</option>
+            <option value="saying hi">Saying Hi</option>
+          </select>
+        </div>
+
+        <div class="message-box">
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" rows="5" required class="input" maxlength="500"></textarea>
+        </div>
+
+        <div class="check-box">
+        <input type="checkbox" id="checkbox" class="box"><label for="checkbox">Do you agree to give your Email and Password</label>
+        </div>
+
+        <button type="submit" class="btn">Send Message</button>
+      </form>
+    </div>
     <footer>
       <nav class="inter">
         <div>
