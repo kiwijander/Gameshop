@@ -1,0 +1,141 @@
+body {
+  margin: 0 auto;
+  max-width: 1248px;
+  width: 100%;
+  padding: 18px 52px;
+  background-color: #020f18;
+  font-family: "Inter", sans-serif;
+  color: #f6f7fc;
+}
+
+.contact-container {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  
+}
+
+.contact-container p{
+    max-width: 345px;
+}
+
+.contact-form {
+  color: white;
+  max-width: 325px;
+  width: 100%;
+  min-height: 600px;
+  max-height: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  font-family: "Inter", sans-serif;
+  justify-content: space-evenly;
+  background-color: #041522;
+  border-radius: 5px;
+  border-style: solid;
+  border-color: #26425a;
+  font-size: 14px;
+}
+
+.check-box label {
+    display: block;
+}
+
+.check-box input {
+    vertical-align: middle;
+    position: relative;
+    bottom: 1px;
+}
+
+.input{
+ background-color: #f6f7fc;
+}
+
+.input:hover{
+  background-color: #bccadc;
+}
+
+.btn{
+  background-color: #3433e8;
+  padding: 16px 32px 16px 42px;
+  border-radius: 24px;
+  border: 0;
+  font-size: 14px;
+  font-weight: bold;
+  color: #f6f7fc;
+  display: flex;
+  align-items: center;
+  font-family: "Inter", sans-serif;
+  cursor: pointer;
+}
+
+.btn:hover{
+  background-color: #211657;
+}
+
+.box{
+  cursor: pointer;
+}
+
+.select{
+  background-color: #f6f7fc;
+}
+
+.select:hover{
+  background-color: #bccadc;
+}
+
+/* .main {
+  remove min hight once we start worrking on the content 
+  min-height: calc(100vh - 170px);
+} */
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 13px;
+}
+
+ul {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+}
+
+.footer {
+  padding-top: 28px;
+  margin-top: 23px;
+  border-color: #173044;
+  border-width: 1px 0px 0px 0px;
+  border-style: solid;
+}
+
+.menu:not(:first-child) {
+  margin-left: 51px;
+}
+
+.icons:not(:first-child) {
+  margin-left: 23px;
+}
+
+.operations {
+  margin-right: 66px;
+  margin-left: 66px;
+}
+
+a,
+li {
+  color: #bccadc;
+}
+
+.footer_right {
+  /* test align works only with text elements (img and a elements are includes --> so here we can align our text and image both to the right of the screen) */
+  text-align: right;
+}

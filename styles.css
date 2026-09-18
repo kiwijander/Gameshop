@@ -8,67 +8,6 @@ body {
   color: #f6f7fc;
 }
 
-.contact-container {
-  margin-top: 20px;
-  margin-bottom: 20px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: flex-start;
-  
-}
-
-.contact-form {
-  color: white;
-  min-height: 600px;
-  max-height: 100%;
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-  font-family: "Inter", sans-serif;
-  justify-content: space-evenly;
-  background-color: #3433e8;
-  border-radius: 5px;
-  
-}
-
-.input{
- background-color: #f6f7fc;
-}
-
-.input:hover{
-  background-color: #bccadc;
-}
-
-.btn{
-  background-color: #173044;
-  padding: 16px 32px 16px 42px;
-  border-radius: 24px;
-  border: 0;
-  font-size: 14px;
-  font-weight: bold;
-  color: #f6f7fc;
-  display: flex;
-  align-items: center;
-  font-family: "Inter", sans-serif;
-  cursor: pointer;
-}
-
-.btn:hover{
-  background-color: #211657;
-}
-
-.box{
-  cursor: pointer;
-}
-
-.select{
-  background-color: #f6f7fc;
-}
-
-.select:hover{
-  background-color: #bccadc;
-}
 
 /* .main {
   remove min hight once we start worrking on the content 
