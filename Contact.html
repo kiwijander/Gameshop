@@ -54,28 +54,28 @@
       <p>Have questions or feedback? Reach out to us!</p>
       <form action="submit_contact.php" method="post" class="contact-form">
         <div class="name-box">
-        <label for="name">Name:</label>
-        <input type="text" id="name" name="name" required class="input" placeholder="Enter your name">
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name" required class="input" placeholder="Enter your full name">
         </div>
 
         <div class="email-box">
-        <label for="email">Email:</label>
+        <label for="email">Email</label>
         <input type="email" id="email" name="email" required class="input" placeholder="Enter your Email">
         </div>
 
         <div class="select-box">
-          <label for="issue">Why do you need to contact us?:</label>
-          <select name="issue" class="select" id="select">
+          <label for="select">Choose a topic</label>
+          <select name="select" class="select" id="select">
             <option value="none">None</option>
-            <option value="malfunction">Malfuction</option>
-            <option value="hacked">Hacked</option>
-            <option value="question">Question</option>
-            <option value="saying hi">Saying Hi</option>
+            <option value="question">Questions</option>
+            <option value="support">Support</option>
+            <option value="feedback">Feedback</option>
+            <option value="other">Something else</option>
           </select>
         </div>
 
         <div class="message-box">
-        <label for="message">Message:</label>
+        <label for="message" >Message</label>
         <textarea id="message" name="message" rows="5" required class="input" maxlength="500"></textarea>
         </div>
 

@@ -40,18 +40,15 @@ body {
   font-size: 14px;
 }
 
-.check-box label {
-    display: block;
-}
-
 .check-box input {
     vertical-align: middle;
     position: relative;
-    bottom: 1px;
+    bottom: 2px;
 }
 
 .input{
  background-color: #f6f7fc;
+ border-radius: 5px;
 }
 
 .input:hover{
@@ -88,6 +85,21 @@ body {
   background-color: #bccadc;
 }
 
+.message-box label{
+    display:block;
+    justify-self: center;
+}
+#message{
+    margin-top: 5px;
+}
+.select-box label{
+    display: block;
+    justify-self: center;
+}
+.select-box select{
+    width:10.3rem;
+    margin-top: 5px;
+}
 /* .main {
   remove min hight once we start worrking on the content 
   min-height: calc(100vh - 170px);
