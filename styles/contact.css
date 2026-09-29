@@ -1,0 +1,108 @@
+body {
+  margin: 0 auto;
+  max-width: 1248px;
+  width: 100%;
+  padding: 18px 52px;
+  background-color: #020f18;
+  font-family: "Inter", sans-serif;
+  color: #f6f7fc;
+}
+/* contact us css */
+.contact-container {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  
+}
+
+.contact-container p{
+    max-width: 345px;
+}
+
+.contact-form {
+  color: white;
+  max-width: 325px;
+  width: 100%;
+  min-height: 600px;
+  max-height: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  font-family: "Inter", sans-serif;
+  justify-content: space-evenly;
+  background-color: #041522;
+  border-radius: 5px;
+  border-style: solid;
+  border-color: #26425a;
+  font-size: 14px;
+}
+
+.check-box input {
+    vertical-align: middle;
+    position: relative;
+    bottom: 2px;
+}
+
+.input{
+ background-color: #f6f7fc;
+ border-radius: 5px;
+}
+
+.input:hover{
+  background-color: #bccadc;
+}
+
+.btn{
+  background-color: #3433e8;
+  padding: 16px 32px 16px 42px;
+  border-radius: 24px;
+  border: 0;
+  font-size: 14px;
+  font-weight: bold;
+  color: #f6f7fc;
+  display: flex;
+  align-items: center;
+  font-family: "Inter", sans-serif;
+  cursor: pointer;
+}
+
+.btn:hover{
+  background-color: #211657;
+}
+
+.box{
+  cursor: pointer;
+}
+
+.select{
+  background-color: #f6f7fc;
+}
+
+.select:hover{
+  background-color: #bccadc;
+}
+
+.message-box label{
+    display:block;
+    justify-self: center;
+}
+#message{
+    margin-top: 5px;
+}
+.select-box label{
+    display: block;
+    justify-self: center;
+}
+.select-box select{
+    width:10.3rem;
+    margin-top: 5px;
+}
+/* contact us css */
+/* .main {
+  remove min hight once we start worrking on the content 
+  min-height: calc(100vh - 170px);
+} */
+
